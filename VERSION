@@ -1,0 +1,13 @@
+# 0.0.1
+2025-01-10
+- Initial release
+
+# 0.0.2
+2025-01-10
+- Add generate_prompts.py
+- Add translation_map.json
+- Add generated_prompts.txt
+- Add README.md
+- Add requirements.txt
+- Add VERSION
+

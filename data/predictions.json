@@ -1,0 +1,58 @@
+[
+  {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 68,
+      "nodule_size_mm": 10.8,
+      "albumin_g_l": 39.1,
+      "wbc_x10_9_l": 5.3,
+      "neutrophils_x10_9_l": 2.45,
+      "postoperative_drainage_ml": 275,
+      "surgery_time_minutes": 115,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Respiratory complications such as atelectasis or pneumonitis",
+      "Localized infections due to increased postoperative drainage",
+      "Delayed recovery related to advanced age and lymph node sampling",
+      "Thromboembolic events, including deep vein thrombosis or pulmonary embolism"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Perform regular checks for signs of infection and respiratory complications",
+        "Closely monitor fluid balance to manage postoperative drainage"
+      ],
+      "nutritional_support": "Maintain albumin levels through a high-protein diet to support optimal healing",
+      "early_mobilization": "Encourage early ambulation and physical therapy to reduce the risk of thromboembolic events",
+      "follow_up": "Schedule follow-up imaging to assess lung recovery and monitor the tumor site for recurrence or other complications"
+    }
+  },
+  {
+    "risk_score": 40,
+    "key_indices": {
+      "age": 43,
+      "nodule_size_mm": 33,
+      "albumin_g_l": 41.2,
+      "wbc_x10_9_l": 4.01,
+      "neutrophils_x10_9_l": 2.66,
+      "postoperative_drainage_ml": 300,
+      "surgery_time_minutes": 200,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Localized infections due to elevated postoperative drainage",
+      "Delayed recovery associated with long surgery time",
+      "Potential risk of incomplete lymph node assessment due to zero lymph node sampling",
+      "Respiratory complications such as pneumonitis or bronchial irritation"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Closely monitor postoperative drainage and signs of infection",
+        "Ensure regular checks for respiratory function to identify potential complications"
+      ],
+      "nutritional_support": "Maintain protein-rich nutrition to support wound healing and recovery",
+      "early_mobilization": "Encourage walking and light physical activity to prevent respiratory stagnation and thromboembolism",
+      "follow_up": "Plan imaging follow-up to assess residual nodule size and ensure no recurrence or secondary complications"
+    }
+  }
+]

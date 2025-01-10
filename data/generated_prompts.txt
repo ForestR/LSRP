@@ -1,0 +1,930 @@
+Prompt 1:
+6573937|||Patient Data:
+Diagnosis Year: 2024, Age: 68, Gender: Female, Smoking Status: No, Nodule Size: 10.8 mm, Tumor Component: 混合磨玻璃, Location: 右中肺, WBC: 5.3, Neutrophils: 2.45, Platelets: 214, Lymphocytes: 39.8, Monocytes: 0.51, Albumin: 39.1, Surgery Time: 115, Intraoperative Bleeding: 10, Lymph Node Sampling Count: 3, Postoperative Drainage: 275, Postoperative Hospital Stay: 4, Catheter Days: 3, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 2:
+6575977|||Patient Data:
+Diagnosis Year: 2024, Age: 43, Gender: Female, Smoking Status: No, Nodule Size: 33 mm, Tumor Component: 空洞型, Location: 左下肺, WBC: 4.01, Neutrophils: 2.66, Platelets: 168, Lymphocytes: 1.03, Monocytes: 0.25, Albumin: 41.2, Surgery Time: 200, Intraoperative Bleeding: 10, Lymph Node Sampling Count: 0, Postoperative Drainage: 300, Postoperative Hospital Stay: 2, Catheter Days: 3, Postoperative Pathology: Other, Stage: -, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 3:
+6576689|||Patient Data:
+Diagnosis Year: 2024, Age: 67, Gender: Female, Smoking Status: No, Nodule Size: 58 mm, Tumor Component: 空洞型, Location: 左上肺, WBC: 4.86, Neutrophils: 2.7, Platelets: 411, Lymphocytes: 1.66, Monocytes: 0.3, Albumin: 39.3, Surgery Time: 170, Intraoperative Bleeding: 15, Lymph Node Sampling Count: 0, Postoperative Drainage: 510, Postoperative Hospital Stay: 4, Catheter Days: 4, Postoperative Pathology: Other, Stage: -, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 4:
+6579968|||Patient Data:
+Diagnosis Year: 2024, Age: 66, Gender: Female, Smoking Status: No, Nodule Size: 25 mm, Tumor Component: 实性, Location: 右上肺, WBC: 4.72, Neutrophils: 1.97, Platelets: 253, Lymphocytes: 2.37, Monocytes: 0.32, Albumin: 48.7, Surgery Time: 155, Intraoperative Bleeding: 0, Lymph Node Sampling Count: 4, Postoperative Drainage: 120, Postoperative Hospital Stay: 3, Catheter Days: 2, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 5:
+6579971|||Patient Data:
+Diagnosis Year: 2024, Age: 68, Gender: Female, Smoking Status: No, Nodule Size: 11 mm, Tumor Component: 混合磨玻璃, Location: 右中肺, WBC: 5.14, Neutrophils: 3.07, Platelets: 156, Lymphocytes: 1.6, Monocytes: 0.36, Albumin: 39.7, Surgery Time: 85, Intraoperative Bleeding: 20, Lymph Node Sampling Count: 1, Postoperative Drainage: 180, Postoperative Hospital Stay: 3, Catheter Days: 2, Postoperative Pathology: Other, Stage: IA1, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 6:
+6581986|||Patient Data:
+Diagnosis Year: 2024, Age: 38, Gender: Female, Smoking Status: No, Nodule Size: 8 mm, Tumor Component: 磨玻璃, Location: 右上肺, WBC: 3.34, Neutrophils: 1.51, Platelets: 197, Lymphocytes: 1.47, Monocytes: 0.28, Albumin: 46.9, Surgery Time: 162, Intraoperative Bleeding: 5, Lymph Node Sampling Count: 2, Postoperative Drainage: 340, Postoperative Hospital Stay: 5, Catheter Days: 4, Postoperative Pathology: Other, Stage: IA1, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 7:
+6585536|||Patient Data:
+Diagnosis Year: 2024, Age: 52, Gender: Female, Smoking Status: No, Nodule Size: 23 mm, Tumor Component: 实性, Location: 左下肺, WBC: 5.48, Neutrophils: 2.67, Platelets: 460, Lymphocytes: 2.34, Monocytes: 0.34, Albumin: 43.9, Surgery Time: 160, Intraoperative Bleeding: 200, Lymph Node Sampling Count: 3, Postoperative Drainage: 440, Postoperative Hospital Stay: 4, Catheter Days: 3, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 8:
+6575038|||Patient Data:
+Diagnosis Year: 2024, Age: 35, Gender: Female, Smoking Status: No, Nodule Size: 10 mm, Tumor Component: 实性, Location: 右下肺, WBC: 3.51, Neutrophils: 2.08, Platelets: 230, Lymphocytes: 1.18, Monocytes: 0.23, Albumin: 43.1, Surgery Time: 145, Intraoperative Bleeding: 50, Lymph Node Sampling Count: 4, Postoperative Drainage: 250, Postoperative Hospital Stay: 3, Catheter Days: 3, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 9:
+6575067|||Patient Data:
+Diagnosis Year: 2024, Age: 57, Gender: Female, Smoking Status: No, Nodule Size: 8 mm, Tumor Component: 实性, Location: 右下肺, WBC: 5.74, Neutrophils: 2.54, Platelets: 374, Lymphocytes: 2.62, Monocytes: 0.45, Albumin: 43.1, Surgery Time: 280, Intraoperative Bleeding: 50, Lymph Node Sampling Count: 3, Postoperative Drainage: 800, Postoperative Hospital Stay: 3, Catheter Days: 3, Postoperative Pathology: Other, Stage: IA1, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 10:
+6575613|||Patient Data:
+Diagnosis Year: 2024, Age: 44, Gender: Female, Smoking Status: No, Nodule Size: 18 mm, Tumor Component: 实性, Location: 右上肺, WBC: 9.23, Neutrophils: 4.84, Platelets: 415, Lymphocytes: 3.75, Monocytes: 0.49, Albumin: 46.7, Surgery Time: 132, Intraoperative Bleeding: 300, Lymph Node Sampling Count: 3, Postoperative Drainage: 150, Postoperative Hospital Stay: 3, Catheter Days: 3, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 11:
+6575656|||Patient Data:
+Diagnosis Year: 2024, Age: 50, Gender: Female, Smoking Status: No, Nodule Size: 21 mm, Tumor Component: 实性, Location: 左下肺, WBC: 3.89, Neutrophils: 2.24, Platelets: 249, Lymphocytes: 1.31, Monocytes: 0.28, Albumin: 39.1, Surgery Time: 85, Intraoperative Bleeding: 20, Lymph Node Sampling Count: 4, Postoperative Drainage: 540, Postoperative Hospital Stay: 5, Catheter Days: 4, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 12:
+6575741|||Patient Data:
+Diagnosis Year: 2024, Age: 72, Gender: Female, Smoking Status: No, Nodule Size: 64 mm, Tumor Component: 实性, Location: 左下肺, WBC: 7.73, Neutrophils: 5.71, Platelets: 136, Lymphocytes: 1.27, Monocytes: 0.65, Albumin: 35.6, Surgery Time: 250, Intraoperative Bleeding: 200, Lymph Node Sampling Count: 5, Postoperative Drainage: 860, Postoperative Hospital Stay: 7, Catheter Days: 6, Postoperative Pathology: Other, Stage: IA3, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 13:
+6575802|||Patient Data:
+Diagnosis Year: 2024, Age: 35, Gender: Female, Smoking Status: No, Nodule Size: 11 mm, Tumor Component: 实性, Location: 右上肺, WBC: 6.69, Neutrophils: 3.26, Platelets: 274, Lymphocytes: 2.62, Monocytes: 0.48, Albumin: 47.9, Surgery Time: 132, Intraoperative Bleeding: 10, Lymph Node Sampling Count: 6, Postoperative Drainage: 20, Postoperative Hospital Stay: 5, Catheter Days: 3, Postoperative Pathology: Other, Stage: IA1, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 14:
+6575921|||Patient Data:
+Diagnosis Year: 2024, Age: 73, Gender: Female, Smoking Status: No, Nodule Size: 24 mm, Tumor Component: 混合磨玻璃, Location: 右下肺, WBC: 5.88, Neutrophils: 3.58, Platelets: 205, Lymphocytes: 1.46, Monocytes: 0.73, Albumin: 36.3, Surgery Time: 104, Intraoperative Bleeding: 40, Lymph Node Sampling Count: 5, Postoperative Drainage: 800, Postoperative Hospital Stay: 4, Catheter Days: 4, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 15:
+6576084|||Patient Data:
+Diagnosis Year: 2024, Age: 66, Gender: Female, Smoking Status: No, Nodule Size: 16 mm, Tumor Component: 实性, Location: 右下肺, WBC: 6.46, Neutrophils: 3.8, Platelets: 331, Lymphocytes: 2.09, Monocytes: 0.43, Albumin: 41.3, Surgery Time: 90, Intraoperative Bleeding: 10, Lymph Node Sampling Count: 5, Postoperative Drainage: 720, Postoperative Hospital Stay: 6, Catheter Days: 5, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 16:
+6576142|||Patient Data:
+Diagnosis Year: 2024, Age: 59, Gender: Female, Smoking Status: No, Nodule Size: 39 mm, Tumor Component: 混合磨玻璃, Location: 右上肺, WBC: 5, Neutrophils: 2.33, Platelets: 196, Lymphocytes: 2.09, Monocytes: 0.36, Albumin: 38.3, Surgery Time: 60, Intraoperative Bleeding: 10, Lymph Node Sampling Count: 7, Postoperative Drainage: 220, Postoperative Hospital Stay: 3, Catheter Days: 2, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 17:
+6577364|||Patient Data:
+Diagnosis Year: 2024, Age: 55, Gender: Female, Smoking Status: No, Nodule Size: 16 mm, Tumor Component: 实性, Location: 左上肺, WBC: 5.2, Neutrophils: 3.22, Platelets: 167, Lymphocytes: 0.95, Monocytes: 0.34, Albumin: 45.3, Surgery Time: 95, Intraoperative Bleeding: 100, Lymph Node Sampling Count: 4, Postoperative Drainage: 680, Postoperative Hospital Stay: 5, Catheter Days: 4, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 18:
+6577462|||Patient Data:
+Diagnosis Year: 2024, Age: 70, Gender: Female, Smoking Status: No, Nodule Size: 20 mm, Tumor Component: 实性, Location: 右下肺, WBC: 9.53, Neutrophils: 7.53, Platelets: 316, Lymphocytes: 1.14, Monocytes: 0.62, Albumin: 39.6, Surgery Time: 110, Intraoperative Bleeding: 0, Lymph Node Sampling Count: 2, Postoperative Drainage: 240, Postoperative Hospital Stay: 5, Catheter Days: 4, Postoperative Pathology: Other, Stage: IA3, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 19:
+6578071|||Patient Data:
+Diagnosis Year: 2024, Age: 67, Gender: Female, Smoking Status: No, Nodule Size: 22 mm, Tumor Component: 混合磨玻璃, Location: 右上肺, WBC: 5.49, Neutrophils: 2.97, Platelets: 137, Lymphocytes: 1.89, Monocytes: 0.44, Albumin: 38.6, Surgery Time: 95, Intraoperative Bleeding: 10, Lymph Node Sampling Count: 6, Postoperative Drainage: 220, Postoperative Hospital Stay: 4, Catheter Days: 3, Postoperative Pathology: Other, Stage: IA1, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 20:
+6578169|||Patient Data:
+Diagnosis Year: 2024, Age: 63, Gender: Female, Smoking Status: No, Nodule Size: 16 mm, Tumor Component: 实性, Location: 左下肺, WBC: 4.73, Neutrophils: 2.21, Platelets: 181, Lymphocytes: 2.15, Monocytes: 0.26, Albumin: 40.7, Surgery Time: 95, Intraoperative Bleeding: 20, Lymph Node Sampling Count: 6, Postoperative Drainage: 720, Postoperative Hospital Stay: 4, Catheter Days: 3, Postoperative Pathology: Other, Stage: IA3, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 21:
+6578523|||Patient Data:
+Diagnosis Year: 2024, Age: 64, Gender: Female, Smoking Status: No, Nodule Size: 21 mm, Tumor Component: 实性, Location: 右上肺, WBC: 9.57, Neutrophils: 7.85, Platelets: 269, Lymphocytes: 0.6, Monocytes: 0.29, Albumin: 40.2, Surgery Time: 173, Intraoperative Bleeding: 100, Lymph Node Sampling Count: 6, Postoperative Drainage: 3325, Postoperative Hospital Stay: 15, Catheter Days: 14, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 22:
+6578853|||Patient Data:
+Diagnosis Year: 2024, Age: 39, Gender: Female, Smoking Status: No, Nodule Size: 17 mm, Tumor Component: 实性, Location: 右上肺, WBC: 5.34, Neutrophils: 3.79, Platelets: 171, Lymphocytes: 1.06, Monocytes: 7.3, Albumin: 39.8, Surgery Time: 181, Intraoperative Bleeding: 15, Lymph Node Sampling Count: 3, Postoperative Drainage: 400, Postoperative Hospital Stay: 3, Catheter Days: 2, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 23:
+6579850|||Patient Data:
+Diagnosis Year: 2024, Age: 43, Gender: Female, Smoking Status: No, Nodule Size: 12 mm, Tumor Component: 实性, Location: 右上肺, WBC: 4.5, Neutrophils: 2.27, Platelets: 216, Lymphocytes: 1.51, Monocytes: 0.41, Albumin: 45.3, Surgery Time: 185, Intraoperative Bleeding: 50, Lymph Node Sampling Count: 6, Postoperative Drainage: 570, Postoperative Hospital Stay: 5, Catheter Days: 4, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 24:
+6579957|||Patient Data:
+Diagnosis Year: 2024, Age: 42, Gender: Female, Smoking Status: No, Nodule Size: 14 mm, Tumor Component: 实性, Location: 左下肺, WBC: 9.46, Neutrophils: 5.36, Platelets: 254, Lymphocytes: 2.98, Monocytes: 0.72, Albumin: 44.9, Surgery Time: 290, Intraoperative Bleeding: 0, Lymph Node Sampling Count: 5, Postoperative Drainage: 360, Postoperative Hospital Stay: 3, Catheter Days: 3, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 25:
+6581273|||Patient Data:
+Diagnosis Year: 2024, Age: 54, Gender: Female, Smoking Status: No, Nodule Size: 24 mm, Tumor Component: 实性, Location: 右中肺, WBC: 5.56, Neutrophils: 2.77, Platelets: 219, Lymphocytes: 2.04, Monocytes: 0.49, Albumin: 40.9, Surgery Time: 95, Intraoperative Bleeding: 20, Lymph Node Sampling Count: 5, Postoperative Drainage: 1090, Postoperative Hospital Stay: 8, Catheter Days: 7, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 26:
+6581473|||Patient Data:
+Diagnosis Year: 2024, Age: 76, Gender: Female, Smoking Status: No, Nodule Size: 21 mm, Tumor Component: 混合磨玻璃, Location: 左下肺, WBC: 2.51, Neutrophils: 1.21, Platelets: 138, Lymphocytes: 0.92, Monocytes: 0.29, Albumin: 36.9, Surgery Time: 70, Intraoperative Bleeding: 20, Lymph Node Sampling Count: 5, Postoperative Drainage: 150, Postoperative Hospital Stay: 7, Catheter Days: 3, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 27:
+6581544|||Patient Data:
+Diagnosis Year: 2024, Age: 50, Gender: Female, Smoking Status: No, Nodule Size: 25 mm, Tumor Component: 磨玻璃, Location: 右下肺, WBC: 5.27, Neutrophils: 2.37, Platelets: 323, Lymphocytes: 2.22, Monocytes: 0.4, Albumin: 45.2, Surgery Time: 95, Intraoperative Bleeding: 20, Lymph Node Sampling Count: 3, Postoperative Drainage: 380, Postoperative Hospital Stay: 3, Catheter Days: 2, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 28:
+6582480|||Patient Data:
+Diagnosis Year: 2024, Age: 70, Gender: Female, Smoking Status: No, Nodule Size: 18 mm, Tumor Component: 实性, Location: 右下肺, WBC: 8.55, Neutrophils: 6.34, Platelets: 245, Lymphocytes: 1.61, Monocytes: 0.5, Albumin: 41.7, Surgery Time: 120, Intraoperative Bleeding: 100, Lymph Node Sampling Count: 4, Postoperative Drainage: 650, Postoperative Hospital Stay: 6, Catheter Days: 4, Postoperative Pathology: Other, Stage: IA3, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 29:
+6584926|||Patient Data:
+Diagnosis Year: 2024, Age: 64, Gender: Female, Smoking Status: No, Nodule Size: 13 mm, Tumor Component: 混合磨玻璃, Location: 左下肺, WBC: 5.02, Neutrophils: 2.77, Platelets: 209, Lymphocytes: 1.97, Monocytes: 0.23, Albumin: 42.5, Surgery Time: 170, Intraoperative Bleeding: 20, Lymph Node Sampling Count: 5, Postoperative Drainage: 920, Postoperative Hospital Stay: 3, Catheter Days: 3, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
+Prompt 30:
+6585012|||Patient Data:
+Diagnosis Year: 2024, Age: 65, Gender: Female, Smoking Status: No, Nodule Size: 11 mm, Tumor Component: 磨玻璃, Location: 右中肺, WBC: 3.41, Neutrophils: 2.01, Platelets: 162, Lymphocytes: 1.11, Monocytes: 0.24, Albumin: 37.4, Surgery Time: 185, Intraoperative Bleeding: 0, Lymph Node Sampling Count: 2, Postoperative Drainage: 100, Postoperative Hospital Stay: 2, Catheter Days: 2, Postoperative Pathology: Other, Stage: IA2, Air Leak: No.
+
+Based on the patient data above, generate a risk assessment in the following JSON format:
+
+{
+  "risk_score": <integer between 0-100>,
+  "key_indices": {
+    "age": <value>,
+    "nodule_size_mm": <value>,
+    "albumin_g_l": <value>,
+    "wbc_x10_9_l": <value>,
+    "neutrophils_x10_9_l": <value>,
+    "postoperative_drainage_ml": <value>,
+    "surgery_time_minutes": <value>,
+    "air_leak": <"Yes" or "No">
+  },
+  "possible_adverse_reactions": [
+    <list of specific potential complications based on patient profile>
+  ],
+  "recommendations": {
+    "monitoring": [<list of specific monitoring recommendations>],
+    "nutritional_support": <specific nutritional recommendation>,
+    "early_mobilization": <specific mobilization strategy>,
+    "follow_up": <specific follow-up plan>
+  }
+}
+
+Ensure all numerical values are appropriate for the units specified and provide detailed, medically relevant recommendations.
+--------------------------------------------------
