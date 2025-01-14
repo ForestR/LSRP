@@ -11,3 +11,13 @@
 - Add requirements.txt
 - Add VERSION
 
+# 0.0.3
+2025-01-13
+- Build a pipeline to process prompts and generate risk assessments
+- Add process_prompts.py
+- Add data/example_predictions.json
+- Add data/processed/risk_assessments.json
+- Add .env
+
+
+

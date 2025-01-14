@@ -1,0 +1,945 @@
+{
+  "Prompt 1:\n6573937": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 68,
+      "nodule_size_mm": 10.8,
+      "albumin_g_l": 39.1,
+      "wbc_x10_9_l": 5.3,
+      "neutrophils_x10_9_l": 2.45,
+      "postoperative_drainage_ml": 275,
+      "surgery_time_minutes": 115,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Atelectasis",
+      "Delayed wound healing"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound healing and signs of infection",
+        "Chest X-ray to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC, neutrophils, and albumin levels"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent atelectasis and deep vein thrombosis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 2:\n6575977": {
+    "risk_score": 45,
+    "key_indices": {
+      "age": 43,
+      "nodule_size_mm": 33,
+      "albumin_g_l": 41.2,
+      "wbc_x10_9_l": 4.01,
+      "neutrophils_x10_9_l": 2.66,
+      "postoperative_drainage_ml": 300,
+      "surgery_time_minutes": 200,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and respiratory rate",
+        "Daily assessment of wound site for signs of infection",
+        "Chest X-ray to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC and neutrophil levels"
+      ],
+      "nutritional_support": "High-protein diet to support healing and maintain albumin levels",
+      "early_mobilization": "Encourage walking and light physical activity as tolerated to prevent complications such as deep vein thrombosis and atelectasis",
+      "follow_up": "Schedule follow-up appointments at 1 week, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 3:\n6576689": {
+    "risk_score": 65,
+    "key_indices": {
+      "age": 67,
+      "nodule_size_mm": 58,
+      "albumin_g_l": 39.3,
+      "wbc_x10_9_l": 4.86,
+      "neutrophils_x10_9_l": 2.7,
+      "postoperative_drainage_ml": 510,
+      "surgery_time_minutes": 170,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis (DVT)",
+      "Pulmonary embolism",
+      "Atelectasis",
+      "Delayed wound healing"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound site for signs of infection",
+        "Frequent chest X-rays to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC, neutrophils, and platelets levels"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent atelectasis and DVT",
+      "follow_up": "Schedule follow-up appointments at 1 week, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 4:\n6579968": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 66,
+      "nodule_size_mm": 25,
+      "albumin_g_l": 48.7,
+      "wbc_x10_9_l": 4.72,
+      "neutrophils_x10_9_l": 1.97,
+      "postoperative_drainage_ml": 120,
+      "surgery_time_minutes": 155,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound healing and signs of infection",
+        "Chest X-ray to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC, neutrophils, and albumin levels"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent atelectasis and deep vein thrombosis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 5:\n6579971": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 68,
+      "nodule_size_mm": 11,
+      "albumin_g_l": 39.7,
+      "wbc_x10_9_l": 5.14,
+      "neutrophils_x10_9_l": 3.07,
+      "postoperative_drainage_ml": 180,
+      "surgery_time_minutes": 85,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs",
+        "Chest X-ray to check for lung complications",
+        "Blood tests to monitor WBC and neutrophil levels",
+        "Drainage output monitoring"
+      ],
+      "nutritional_support": "High-protein diet to support healing and maintain albumin levels",
+      "early_mobilization": "Encourage walking and light physical activity as tolerated to prevent blood clots and improve lung function",
+      "follow_up": "Schedule follow-up appointments every 3 months for the first year, including CT scans and blood tests to monitor for recurrence or complications"
+    }
+  },
+  "Prompt 6:\n6581986": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 38,
+      "nodule_size_mm": 8,
+      "albumin_g_l": 46.9,
+      "wbc_x10_9_l": 3.34,
+      "neutrophils_x10_9_l": 1.51,
+      "postoperative_drainage_ml": 340,
+      "surgery_time_minutes": 162,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Infection due to low WBC and neutrophil count",
+      "Delayed wound healing due to low albumin levels",
+      "Pneumonia or atelectasis due to prolonged surgery time",
+      "Postoperative bleeding due to moderate drainage volume"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Daily WBC and neutrophil counts to monitor for infection",
+        "Regular assessment of wound healing progress",
+        "Chest X-ray to rule out pneumonia or atelectasis",
+        "Monitor drainage output for signs of increased bleeding"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage deep breathing exercises and ambulation within 24 hours post-surgery to prevent pulmonary complications",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and assess for recurrence"
+    }
+  },
+  "Prompt 7:\n6585536": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 52,
+      "nodule_size_mm": 23,
+      "albumin_g_l": 43.9,
+      "wbc_x10_9_l": 5.48,
+      "neutrophils_x10_9_l": 2.67,
+      "postoperative_drainage_ml": 440,
+      "surgery_time_minutes": 160,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis (DVT)",
+      "Pulmonary embolism",
+      "Atelectasis",
+      "Prolonged air leak (though currently absent)",
+      "Delayed wound healing"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs (heart rate, blood pressure, oxygen saturation)",
+        "Daily assessment of wound healing and drainage",
+        "Chest X-ray to rule out atelectasis or pneumonia",
+        "Blood tests to monitor WBC, neutrophils, and platelets",
+        "Assessment for signs of DVT (e.g., leg swelling, pain)"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage ambulation within 24 hours post-surgery to reduce risk of DVT and atelectasis",
+      "follow_up": "Schedule follow-up in 2 weeks for wound check and pathology review, with additional imaging if needed"
+    }
+  },
+  "Prompt 8:\n6575038": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 35,
+      "nodule_size_mm": 10,
+      "albumin_g_l": 43.1,
+      "wbc_x10_9_l": 3.51,
+      "neutrophils_x10_9_l": 2.08,
+      "postoperative_drainage_ml": 250,
+      "surgery_time_minutes": 145,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of WBC and neutrophil counts to detect early signs of infection",
+        "Chest X-ray to monitor for atelectasis or pneumonia",
+        "Daily assessment of surgical site for signs of infection",
+        "Monitoring of drainage output to ensure it decreases appropriately"
+      ],
+      "nutritional_support": "High-protein diet to support healing and maintain albumin levels",
+      "early_mobilization": "Encourage walking and light physical activity as tolerated to prevent complications such as deep vein thrombosis and atelectasis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 9:\n6575067": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 57,
+      "nodule_size_mm": 8,
+      "albumin_g_l": 43.1,
+      "wbc_x10_9_l": 5.74,
+      "neutrophils_x10_9_l": 2.54,
+      "postoperative_drainage_ml": 800,
+      "surgery_time_minutes": 280,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Atelectasis",
+      "Pulmonary embolism"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound healing and signs of infection",
+        "Chest X-ray to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC, neutrophils, and albumin levels"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent atelectasis and deep vein thrombosis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 10:\n6575613": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 44,
+      "nodule_size_mm": 18,
+      "albumin_g_l": 46.7,
+      "wbc_x10_9_l": 9.23,
+      "neutrophils_x10_9_l": 4.84,
+      "postoperative_drainage_ml": 150,
+      "surgery_time_minutes": 132,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Atelectasis",
+      "Prolonged air leak (unlikely due to current data)"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs (heart rate, blood pressure, oxygen saturation)",
+        "Daily assessment of wound healing and drainage",
+        "Chest X-ray to rule out atelectasis or pneumothorax",
+        "Blood tests to monitor WBC and inflammatory markers"
+      ],
+      "nutritional_support": "High-protein diet to support healing and maintain albumin levels",
+      "early_mobilization": "Encourage ambulation within 24 hours post-surgery to prevent complications like DVT and atelectasis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 6 weeks, and 3 months post-surgery for clinical evaluation and imaging as needed"
+    }
+  },
+  "Prompt 11:\n6575656": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 50,
+      "nodule_size_mm": 21,
+      "albumin_g_l": 39.1,
+      "wbc_x10_9_l": 3.89,
+      "neutrophils_x10_9_l": 2.24,
+      "postoperative_drainage_ml": 540,
+      "surgery_time_minutes": 85,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis",
+      "Postoperative pain"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs",
+        "Chest X-ray to check for atelectasis or pneumonia",
+        "Blood tests to monitor WBC and neutrophil levels",
+        "Drainage output monitoring"
+      ],
+      "nutritional_support": "High-protein diet to support healing and maintain albumin levels",
+      "early_mobilization": "Encourage walking and light physical activity as tolerated to prevent complications like deep vein thrombosis and atelectasis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and check for any signs of recurrence or complications"
+    }
+  },
+  "Prompt 12:\n6575741": {
+    "risk_score": 65,
+    "key_indices": {
+      "age": 72,
+      "nodule_size_mm": 64,
+      "albumin_g_l": 35.6,
+      "wbc_x10_9_l": 7.73,
+      "neutrophils_x10_9_l": 5.71,
+      "postoperative_drainage_ml": 860,
+      "surgery_time_minutes": 250,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Delayed wound healing",
+      "Atelectasis"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Daily monitoring of wound site for signs of infection",
+        "Regular chest X-rays to monitor lung expansion and detect atelectasis",
+        "Frequent blood tests to monitor WBC and neutrophil levels",
+        "Continuous monitoring of drainage output and characteristics"
+      ],
+      "nutritional_support": "High-protein diet with supplements to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage walking and light physical activity as tolerated to prevent thromboembolic events and improve lung function",
+      "follow_up": "Schedule follow-up appointments every 2 weeks for the first 2 months, then monthly for the next 6 months to monitor recovery and detect any complications early"
+    }
+  },
+  "Prompt 13:\n6575802": {
+    "risk_score": 15,
+    "key_indices": {
+      "age": 35,
+      "nodule_size_mm": 11,
+      "albumin_g_l": 47.9,
+      "wbc_x10_9_l": 6.69,
+      "neutrophils_x10_9_l": 3.26,
+      "postoperative_drainage_ml": 20,
+      "surgery_time_minutes": 132,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs",
+        "Chest X-ray to check for lung expansion",
+        "Blood tests to monitor WBC and neutrophil levels",
+        "Observation for signs of infection or bleeding"
+      ],
+      "nutritional_support": "High-protein diet to support healing and maintain albumin levels",
+      "early_mobilization": "Encourage walking and light physical activity as tolerated to prevent complications like DVT and atelectasis",
+      "follow_up": "Schedule follow-up appointments at 1 month, 3 months, and 6 months post-surgery for imaging and physical examination"
+    }
+  },
+  "Prompt 14:\n6575921": {
+    "risk_score": 45,
+    "key_indices": {
+      "age": 73,
+      "nodule_size_mm": 24,
+      "albumin_g_l": 36.3,
+      "wbc_x10_9_l": 5.88,
+      "neutrophils_x10_9_l": 3.58,
+      "postoperative_drainage_ml": 800,
+      "surgery_time_minutes": 104,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis (DVT)",
+      "Pulmonary embolism",
+      "Atelectasis",
+      "Delayed wound healing"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound site for signs of infection",
+        "Chest X-ray to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC, neutrophils, and albumin levels"
+      ],
+      "nutritional_support": "High-protein diet with adequate caloric intake to support wound healing and recovery",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent atelectasis and DVT",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 15:\n6576084": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 66,
+      "nodule_size_mm": 16,
+      "albumin_g_l": 41.3,
+      "wbc_x10_9_l": 6.46,
+      "neutrophils_x10_9_l": 3.8,
+      "postoperative_drainage_ml": 720,
+      "surgery_time_minutes": 90,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis (DVT)",
+      "Pulmonary embolism",
+      "Atelectasis",
+      "Delayed wound healing"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound site for signs of infection",
+        "Chest X-ray to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC and neutrophil levels for signs of infection"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent atelectasis and DVT",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 16:\n6576142": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 59,
+      "nodule_size_mm": 39,
+      "albumin_g_l": 38.3,
+      "wbc_x10_9_l": 5,
+      "neutrophils_x10_9_l": 2.33,
+      "postoperative_drainage_ml": 220,
+      "surgery_time_minutes": 60,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis",
+      "Delayed wound healing"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs, including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound site for signs of infection or dehiscence",
+        "Chest X-ray to rule out atelectasis or pneumonia",
+        "Blood tests to monitor WBC, neutrophils, and albumin levels"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage ambulation within 24 hours post-surgery to prevent complications such as deep vein thrombosis and atelectasis",
+      "follow_up": "Schedule follow-up appointments at 1 week, 1 month, and 3 months post-surgery to monitor recovery and assess for any signs of recurrence or complications"
+    }
+  },
+  "Prompt 17:\n6577364": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 55,
+      "nodule_size_mm": 16,
+      "albumin_g_l": 45.3,
+      "wbc_x10_9_l": 5.2,
+      "neutrophils_x10_9_l": 3.22,
+      "postoperative_drainage_ml": 680,
+      "surgery_time_minutes": 95,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound healing and signs of infection",
+        "Chest X-ray to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC, neutrophils, and albumin levels"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent atelectasis and deep vein thrombosis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 18:\n6577462": {
+    "risk_score": 45,
+    "key_indices": {
+      "age": 70,
+      "nodule_size_mm": 20,
+      "albumin_g_l": 39.6,
+      "wbc_x10_9_l": 9.53,
+      "neutrophils_x10_9_l": 7.53,
+      "postoperative_drainage_ml": 240,
+      "surgery_time_minutes": 110,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Delayed wound healing"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of WBC and neutrophil counts to detect early signs of infection",
+        "Daily assessment of wound healing and drainage",
+        "Continuous monitoring of respiratory function to detect any signs of pneumonia or air leak",
+        "Regular assessment of mobility and signs of deep vein thrombosis"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage early ambulation and physical therapy to prevent complications such as deep vein thrombosis and pulmonary embolism",
+      "follow_up": "Schedule follow-up appointments at 1 week, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 19:\n6578071": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 67,
+      "nodule_size_mm": 22,
+      "albumin_g_l": 38.6,
+      "wbc_x10_9_l": 5.49,
+      "neutrophils_x10_9_l": 2.97,
+      "postoperative_drainage_ml": 220,
+      "surgery_time_minutes": 95,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Atelectasis",
+      "Delayed wound healing"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of wound site for signs of infection",
+        "Daily assessment of respiratory function",
+        "Frequent checks of drainage output and characteristics",
+        "Monitoring for signs of deep vein thrombosis"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage walking and light physical activity as tolerated to prevent complications such as atelectasis and deep vein thrombosis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and assess for any signs of recurrence or complications"
+    }
+  },
+  "Prompt 20:\n6578169": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 63,
+      "nodule_size_mm": 16,
+      "albumin_g_l": 40.7,
+      "wbc_x10_9_l": 4.73,
+      "neutrophils_x10_9_l": 2.21,
+      "postoperative_drainage_ml": 720,
+      "surgery_time_minutes": 95,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound healing and signs of infection",
+        "Chest X-ray to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC, neutrophils, and albumin levels"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent atelectasis and deep vein thrombosis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 21:\n6578523": {
+    "risk_score": 45,
+    "key_indices": {
+      "age": 64,
+      "nodule_size_mm": 21,
+      "albumin_g_l": 40.2,
+      "wbc_x10_9_l": 9.57,
+      "neutrophils_x10_9_l": 7.85,
+      "postoperative_drainage_ml": 3325,
+      "surgery_time_minutes": 173,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis",
+      "Prolonged air leak",
+      "Respiratory failure"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of chest tube drainage",
+        "Frequent assessment of respiratory function",
+        "Daily blood tests to monitor WBC and neutrophil levels",
+        "Regular imaging to check for any signs of infection or complications"
+      ],
+      "nutritional_support": "High-protein diet to support healing and maintain albumin levels",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent atelectasis and DVT",
+      "follow_up": "Schedule follow-up appointments every 2 weeks for the first 2 months, then monthly for the next 6 months to monitor recovery and detect any recurrence early"
+    }
+  },
+  "Prompt 22:\n6578853": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 39,
+      "nodule_size_mm": 17,
+      "albumin_g_l": 39.8,
+      "wbc_x10_9_l": 5.34,
+      "neutrophils_x10_9_l": 3.79,
+      "postoperative_drainage_ml": 400,
+      "surgery_time_minutes": 181,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound healing and signs of infection",
+        "Chest X-ray to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC and neutrophil levels for signs of infection"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent atelectasis and deep vein thrombosis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 23:\n6579850": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 43,
+      "nodule_size_mm": 12,
+      "albumin_g_l": 45.3,
+      "wbc_x10_9_l": 4.5,
+      "neutrophils_x10_9_l": 2.27,
+      "postoperative_drainage_ml": 570,
+      "surgery_time_minutes": 185,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs",
+        "Chest X-ray to check for atelectasis or pneumonia",
+        "Blood tests to monitor WBC and neutrophil levels",
+        "Drainage output monitoring"
+      ],
+      "nutritional_support": "High-protein diet to support healing and maintain albumin levels",
+      "early_mobilization": "Encourage walking and light physical activity as tolerated to prevent complications like deep vein thrombosis",
+      "follow_up": "Schedule follow-up appointments every 3 months for the first year, including CT scans and blood tests to monitor for recurrence or complications"
+    }
+  },
+  "Prompt 24:\n6579957": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 42,
+      "nodule_size_mm": 14,
+      "albumin_g_l": 44.9,
+      "wbc_x10_9_l": 9.46,
+      "neutrophils_x10_9_l": 5.36,
+      "postoperative_drainage_ml": 360,
+      "surgery_time_minutes": 290,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Atelectasis",
+      "Pulmonary embolism"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound healing and signs of infection",
+        "Chest X-ray to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC and neutrophil levels"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent atelectasis and deep vein thrombosis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 25:\n6581273": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 54,
+      "nodule_size_mm": 24,
+      "albumin_g_l": 40.9,
+      "wbc_x10_9_l": 5.56,
+      "neutrophils_x10_9_l": 2.77,
+      "postoperative_drainage_ml": 1090,
+      "surgery_time_minutes": 95,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis (DVT)",
+      "Pulmonary embolism",
+      "Atelectasis",
+      "Prolonged air leak (if air leak develops)"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of chest tube drainage volume and characteristics",
+        "Daily assessment of respiratory function and oxygen saturation",
+        "Frequent wound inspection for signs of infection",
+        "Monitoring of blood counts and inflammatory markers (e.g., CRP)"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage ambulation within 24 hours post-surgery to reduce risk of DVT and atelectasis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery for imaging and clinical evaluation"
+    }
+  },
+  "Prompt 26:\n6581473": {
+    "risk_score": 45,
+    "key_indices": {
+      "age": 76,
+      "nodule_size_mm": 21,
+      "albumin_g_l": 36.9,
+      "wbc_x10_9_l": 2.51,
+      "neutrophils_x10_9_l": 1.21,
+      "postoperative_drainage_ml": 150,
+      "surgery_time_minutes": 70,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Infection due to low WBC and neutrophil counts",
+      "Delayed wound healing due to low albumin levels",
+      "Postoperative pneumonia due to reduced mobility",
+      "Thrombocytopenia-related bleeding due to low platelet count"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Daily WBC and neutrophil counts to monitor for infection",
+        "Regular albumin levels to assess nutritional status",
+        "Chest X-rays to monitor for pneumonia",
+        "Platelet counts to monitor for bleeding risk"
+      ],
+      "nutritional_support": "High-protein diet with supplements to improve albumin levels and support wound healing",
+      "early_mobilization": "Encourage walking and light physical activity within 24 hours post-surgery to reduce pneumonia risk",
+      "follow_up": "Schedule follow-up appointments every 2 weeks for the first 2 months, then monthly for 6 months to monitor recovery and detect any complications early"
+    }
+  },
+  "Prompt 27:\n6581544": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 50,
+      "nodule_size_mm": 25,
+      "albumin_g_l": 45.2,
+      "wbc_x10_9_l": 5.27,
+      "neutrophils_x10_9_l": 2.37,
+      "postoperative_drainage_ml": 380,
+      "surgery_time_minutes": 95,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound healing and signs of infection",
+        "Chest X-ray to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC, neutrophils, and albumin levels"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent atelectasis and deep vein thrombosis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 28:\n6582480": {
+    "risk_score": 45,
+    "key_indices": {
+      "age": 70,
+      "nodule_size_mm": 18,
+      "albumin_g_l": 41.7,
+      "wbc_x10_9_l": 8.55,
+      "neutrophils_x10_9_l": 6.34,
+      "postoperative_drainage_ml": 650,
+      "surgery_time_minutes": 120,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis",
+      "Pulmonary embolism",
+      "Atelectasis",
+      "Delayed wound healing"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs including temperature, heart rate, and oxygen saturation",
+        "Daily assessment of wound site for signs of infection",
+        "Frequent chest X-rays to monitor lung expansion and detect any complications",
+        "Blood tests to monitor WBC and neutrophil levels for signs of infection"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels",
+      "early_mobilization": "Encourage walking and light physical activity as tolerated to prevent complications such as deep vein thrombosis and atelectasis",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery to monitor recovery and detect any late complications"
+    }
+  },
+  "Prompt 29:\n6584926": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 64,
+      "nodule_size_mm": 13,
+      "albumin_g_l": 42.5,
+      "wbc_x10_9_l": 5.02,
+      "neutrophils_x10_9_l": 2.77,
+      "postoperative_drainage_ml": 920,
+      "surgery_time_minutes": 170,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Postoperative infection",
+      "Pneumonia",
+      "Deep vein thrombosis (DVT)",
+      "Pulmonary embolism",
+      "Atelectasis",
+      "Prolonged air leak (though currently absent)",
+      "Delayed wound healing"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of vital signs (heart rate, blood pressure, oxygen saturation)",
+        "Daily assessment of wound healing and drainage",
+        "Chest X-ray to rule out atelectasis or pneumonia",
+        "Blood tests to monitor WBC, neutrophils, and albumin levels",
+        "Assessment for signs of DVT (e.g., leg swelling, pain)"
+      ],
+      "nutritional_support": "High-protein diet to support wound healing and maintain albumin levels. Consider oral nutritional supplements if dietary intake is insufficient.",
+      "early_mobilization": "Encourage early ambulation and breathing exercises to prevent complications such as DVT, atelectasis, and pneumonia. Use incentive spirometry to improve lung function.",
+      "follow_up": "Schedule follow-up appointments at 2 weeks, 1 month, and 3 months post-surgery. Include chest imaging (CT scan) at 3 months to monitor for recurrence or complications."
+    }
+  },
+  "Prompt 30:\n6585012": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 65,
+      "nodule_size_mm": 11,
+      "albumin_g_l": 37.4,
+      "wbc_x10_9_l": 3.41,
+      "neutrophils_x10_9_l": 2.01,
+      "postoperative_drainage_ml": 100,
+      "surgery_time_minutes": 185,
+      "air_leak": "No"
+    },
+    "possible_adverse_reactions": [
+      "Infection due to low WBC and neutrophil count",
+      "Delayed wound healing due to low albumin levels",
+      "Postoperative pneumonia",
+      "Deep vein thrombosis (DVT)"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "Regular monitoring of WBC and neutrophil counts",
+        "Daily assessment of wound healing progress",
+        "Chest X-ray to monitor for pneumonia",
+        "Ultrasound for DVT screening if symptoms arise"
+      ],
+      "nutritional_support": "High-protein diet to support albumin levels and wound healing",
+      "early_mobilization": "Encourage walking and light physical activity as tolerated to prevent DVT and improve recovery",
+      "follow_up": "Schedule follow-up appointments at 1 week, 1 month, and 3 months post-surgery to monitor recovery and detect any complications early"
+    }
+  }
+}
