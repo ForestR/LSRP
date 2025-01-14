@@ -92,10 +92,10 @@ class PromptProcessor:
             return None
             
     def process_prompts_file(self, 
-                           input_file: str, 
-                           output_file: str,
-                           delay: float = 1.0,
-                           test_mode: bool = False) -> Dict[str, Any]:
+                            input_file: str, 
+                            output_file: str,
+                            delay: float = 1.0,
+                            test_mode: bool = False) -> Dict[str, Any]:
         """
         Process prompts from a file and save results.
         
@@ -152,27 +152,32 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # Get configuration from environment
-    provider = os.getenv("API_PROVIDER", "openai")
+    provider = os.getenv("DIAGNOSTIC_MODEL", "openai")
     model = "gpt-4" if provider == "openai" else "deepseek-chat"
     debug_mode = os.getenv("DEBUG", "false").lower() == "true"
     test_mode = os.getenv("TEST_MODE", "false").lower() == "true"
+    temperature = float(os.getenv("TEMPERATURE", "0.2"))  # Default temperature for diagnostic
+    delay = float(os.getenv("API_DELAY", "1.0"))  # Default delay between API calls
     
     processor = PromptProcessor(
         provider=provider,
         model=model,
+        temperature=temperature,
         debug=debug_mode
     )
     
     results = processor.process_prompts_file(
         input_file="data/generated_prompts.txt",
         output_file="data/processed/risk_assessments.json",
-        delay=1.0,
+        delay=delay,
         test_mode=test_mode
     )
     
     if debug_mode:
         print(f"\nProcessing complete:")
         print(f"- Provider: {provider}")
+        print(f"- Temperature: {temperature}")
+        print(f"- API Delay: {delay}s")
         print(f"- Prompts processed: {len(results)}")
         print(f"- Output saved to: data/processed/risk_assessments.json")
 

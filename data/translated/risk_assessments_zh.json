@@ -1,0 +1,945 @@
+{
+  "Prompt 1:\n6573937": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 68,
+      "nodule_size_mm": 10.8,
+      "albumin_g_l": 39.1,
+      "wbc_x10_9_l": 5.3,
+      "neutrophils_x10_9_l": 2.45,
+      "postoperative_drainage_ml": 275,
+      "surgery_time_minutes": 115,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺不张",
+      "伤口愈合延迟"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口愈合情况及感染迹象",
+        "胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "监测白细胞、中性粒细胞和白蛋白水平的血液检测"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防肺不张和深静脉血栓形成。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并发现任何晚期并发症。"
+    }
+  },
+  "Prompt 2:\n6575977": {
+    "risk_score": 45,
+    "key_indices": {
+      "age": 43,
+      "nodule_size_mm": 33,
+      "albumin_g_l": 41.2,
+      "wbc_x10_9_l": 4.01,
+      "neutrophils_x10_9_l": 2.66,
+      "postoperative_drainage_ml": 300,
+      "surgery_time_minutes": 200,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和呼吸频率。",
+        "每日评估伤口部位是否有感染迹象",
+        "胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "监测白细胞和中性粒细胞水平的血液检测"
+      ],
+      "nutritional_support": "高蛋白饮食以促进愈合并维持白蛋白水平",
+      "early_mobilization": "鼓励在耐受范围内进行步行和轻度体力活动，以预防深静脉血栓和肺不张等并发症。",
+      "follow_up": "术后1周、1个月及3个月安排随访复查，以监控恢复情况并排查任何晚期并发症。"
+    }
+  },
+  "Prompt 3:\n6576689": {
+    "risk_score": 65,
+    "key_indices": {
+      "age": 67,
+      "nodule_size_mm": 58,
+      "albumin_g_l": 39.3,
+      "wbc_x10_9_l": 4.86,
+      "neutrophils_x10_9_l": 2.7,
+      "postoperative_drainage_ml": 510,
+      "surgery_time_minutes": 170,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成（DVT）",
+      "肺栓塞",
+      "肺不张",
+      "伤口愈合延迟"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口部位是否有感染迹象",
+        "频繁进行胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "监测白细胞、中性粒细胞和血小板水平的血液检测"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防肺不张和深静脉血栓形成。",
+      "follow_up": "术后1周、1个月及3个月安排随访复查，以监控恢复情况并排查任何晚期并发症。"
+    }
+  },
+  "Prompt 4:\n6579968": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 66,
+      "nodule_size_mm": 25,
+      "albumin_g_l": 48.7,
+      "wbc_x10_9_l": 4.72,
+      "neutrophils_x10_9_l": 1.97,
+      "postoperative_drainage_ml": 120,
+      "surgery_time_minutes": 155,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口愈合情况及感染迹象",
+        "胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "监测白细胞、中性粒细胞和白蛋白水平的血液检测"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防肺不张和深静脉血栓形成。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并发现任何晚期并发症。"
+    }
+  },
+  "Prompt 5:\n6579971": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 68,
+      "nodule_size_mm": 11,
+      "albumin_g_l": 39.7,
+      "wbc_x10_9_l": 5.14,
+      "neutrophils_x10_9_l": 3.07,
+      "postoperative_drainage_ml": 180,
+      "surgery_time_minutes": 85,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征",
+        "胸部X光检查以排查肺部并发症",
+        "监测白细胞和中性粒细胞水平的血液检测",
+        "排水量监测"
+      ],
+      "nutritional_support": "高蛋白饮食以促进愈合并维持白蛋白水平",
+      "early_mobilization": "鼓励在耐受范围内进行步行和轻度体力活动，以预防血栓形成并改善肺功能。",
+      "follow_up": "第一年内，每3个月安排一次随访预约，包括CT扫描和血液检查，以监测复发或并发症情况。"
+    }
+  },
+  "Prompt 6:\n6581986": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 38,
+      "nodule_size_mm": 8,
+      "albumin_g_l": 46.9,
+      "wbc_x10_9_l": 3.34,
+      "neutrophils_x10_9_l": 1.51,
+      "postoperative_drainage_ml": 340,
+      "surgery_time_minutes": 162,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "白细胞和中性粒细胞计数低导致的感染",
+      "由于白蛋白水平低导致的伤口愈合延迟",
+      "手术时间过长导致的肺炎或肺不张",
+      "术后因中等引流量导致的出血"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "每日白细胞计数（WBC）和中性粒细胞计数，以监测感染情况。",
+        "定期评估伤口愈合进展",
+        "胸部X光检查以排除肺炎或肺不张",
+        "监测引流液量，观察是否有出血增加的迹象。"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励术后24小时内进行深呼吸练习和适当下床活动，以预防肺部并发症。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并评估是否复发。"
+    }
+  },
+  "Prompt 7:\n6585536": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 52,
+      "nodule_size_mm": 23,
+      "albumin_g_l": 43.9,
+      "wbc_x10_9_l": 5.48,
+      "neutrophils_x10_9_l": 2.67,
+      "postoperative_drainage_ml": 440,
+      "surgery_time_minutes": 160,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成（DVT）",
+      "肺栓塞",
+      "肺不张",
+      "长期漏气（尽管目前未出现）",
+      "伤口愈合延迟"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征（心率、血压、血氧饱和度）",
+        "每日评估伤口愈合及引流情况",
+        "胸部X光检查以排除肺不张或肺炎",
+        "监测白细胞、中性粒细胞和血小板水平的血液检测",
+        "评估深静脉血栓（DVT）的迹象（例如，腿部肿胀、疼痛）"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "术后24小时内鼓励患者下床活动，以降低深静脉血栓（DVT）和肺不张的风险。",
+      "follow_up": "安排两周后复诊，进行伤口检查及病理报告复查，如有需要，补充影像学检查。"
+    }
+  },
+  "Prompt 8:\n6575038": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 35,
+      "nodule_size_mm": 10,
+      "albumin_g_l": 43.1,
+      "wbc_x10_9_l": 3.51,
+      "neutrophils_x10_9_l": 2.08,
+      "postoperative_drainage_ml": 250,
+      "surgery_time_minutes": 145,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测白细胞和中性粒细胞计数，以早期发现感染迹象。",
+        "胸部X光检查以监测肺不张或肺炎",
+        "每日评估手术部位是否有感染迹象",
+        "监测排水量，确保其适当减少"
+      ],
+      "nutritional_support": "高蛋白饮食以促进愈合并维持白蛋白水平",
+      "early_mobilization": "鼓励在耐受范围内进行步行和轻度体力活动，以预防深静脉血栓和肺不张等并发症。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并发现任何晚期并发症。"
+    }
+  },
+  "Prompt 9:\n6575067": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 57,
+      "nodule_size_mm": 8,
+      "albumin_g_l": 43.1,
+      "wbc_x10_9_l": 5.74,
+      "neutrophils_x10_9_l": 2.54,
+      "postoperative_drainage_ml": 800,
+      "surgery_time_minutes": 280,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺不张",
+      "肺栓塞"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口愈合情况及感染迹象",
+        "胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "监测白细胞、中性粒细胞和白蛋白水平的血液检测"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防肺不张和深静脉血栓形成。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并发现任何晚期并发症。"
+    }
+  },
+  "Prompt 10:\n6575613": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 44,
+      "nodule_size_mm": 18,
+      "albumin_g_l": 46.7,
+      "wbc_x10_9_l": 9.23,
+      "neutrophils_x10_9_l": 4.84,
+      "postoperative_drainage_ml": 150,
+      "surgery_time_minutes": 132,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺不张",
+      "长期漏气（根据现有数据不太可能）"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征（心率、血压、血氧饱和度）",
+        "每日评估伤口愈合及引流情况",
+        "胸部X光检查以排除肺不张或气胸。",
+        "监测白细胞和炎症标志物的血液检测"
+      ],
+      "nutritional_support": "高蛋白饮食以促进愈合并维持白蛋白水平",
+      "early_mobilization": "鼓励术后24小时内下床活动，以预防深静脉血栓（DVT）和肺不张等并发症。",
+      "follow_up": "术后2周、6周及3个月安排随访预约，进行临床评估并根据需要安排影像学检查。"
+    }
+  },
+  "Prompt 11:\n6575656": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 50,
+      "nodule_size_mm": 21,
+      "albumin_g_l": 39.1,
+      "wbc_x10_9_l": 3.89,
+      "neutrophils_x10_9_l": 2.24,
+      "postoperative_drainage_ml": 540,
+      "surgery_time_minutes": 85,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张",
+      "术后疼痛"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征",
+        "胸部X光检查以排查肺不张或肺炎",
+        "监测白细胞和中性粒细胞水平的血液检测",
+        "排水量监测"
+      ],
+      "nutritional_support": "高蛋白饮食以促进愈合并维持白蛋白水平",
+      "early_mobilization": "鼓励患者根据耐受程度进行步行和轻度体力活动，以预防深静脉血栓和肺不张等并发症。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并检查是否有复发或并发症的迹象。"
+    }
+  },
+  "Prompt 12:\n6575741": {
+    "risk_score": 65,
+    "key_indices": {
+      "age": 72,
+      "nodule_size_mm": 64,
+      "albumin_g_l": 35.6,
+      "wbc_x10_9_l": 7.73,
+      "neutrophils_x10_9_l": 5.71,
+      "postoperative_drainage_ml": 860,
+      "surgery_time_minutes": 250,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "伤口愈合延迟",
+      "肺不张"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "每日监测伤口部位，观察感染迹象。",
+        "定期进行胸部X光检查，以监测肺部扩张情况并检测肺不张。",
+        "定期进行血液检测以监测白细胞（WBC）和中性粒细胞水平",
+        "持续监测排水量及其特性"
+      ],
+      "nutritional_support": "高蛋白饮食搭配补充剂，以促进伤口愈合并维持白蛋白水平",
+      "early_mobilization": "鼓励在耐受范围内进行步行和轻度体力活动，以预防血栓栓塞事件并改善肺功能。",
+      "follow_up": "在最初的2个月内，每2周安排一次随访预约，接下来的6个月则每月一次，以便监测恢复情况并及早发现任何并发症。"
+    }
+  },
+  "Prompt 13:\n6575802": {
+    "risk_score": 15,
+    "key_indices": {
+      "age": 35,
+      "nodule_size_mm": 11,
+      "albumin_g_l": 47.9,
+      "wbc_x10_9_l": 6.69,
+      "neutrophils_x10_9_l": 3.26,
+      "postoperative_drainage_ml": 20,
+      "surgery_time_minutes": 132,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征",
+        "胸部X光检查以评估肺部扩张情况",
+        "监测白细胞和中性粒细胞水平的血液检测",
+        "观察感染或出血的迹象"
+      ],
+      "nutritional_support": "高蛋白饮食以促进愈合并维持白蛋白水平",
+      "early_mobilization": "鼓励患者根据耐受程度进行步行和轻度体力活动，以预防深静脉血栓（DVT）和肺不张等并发症。",
+      "follow_up": "术后1个月、3个月和6个月安排随访预约，进行影像学检查和体格检查。"
+    }
+  },
+  "Prompt 14:\n6575921": {
+    "risk_score": 45,
+    "key_indices": {
+      "age": 73,
+      "nodule_size_mm": 24,
+      "albumin_g_l": 36.3,
+      "wbc_x10_9_l": 5.88,
+      "neutrophils_x10_9_l": 3.58,
+      "postoperative_drainage_ml": 800,
+      "surgery_time_minutes": 104,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成（DVT）",
+      "肺栓塞",
+      "肺不张",
+      "伤口愈合延迟"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口部位是否有感染迹象",
+        "胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "监测白细胞、中性粒细胞和白蛋白水平的血液检测"
+      ],
+      "nutritional_support": "高蛋白饮食，确保足够的热量摄入，以促进伤口愈合和身体恢复。",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防肺不张和深静脉血栓形成。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并发现任何晚期并发症。"
+    }
+  },
+  "Prompt 15:\n6576084": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 66,
+      "nodule_size_mm": 16,
+      "albumin_g_l": 41.3,
+      "wbc_x10_9_l": 6.46,
+      "neutrophils_x10_9_l": 3.8,
+      "postoperative_drainage_ml": 720,
+      "surgery_time_minutes": 90,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成（DVT）",
+      "肺栓塞",
+      "肺不张",
+      "伤口愈合延迟"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口部位是否有感染迹象",
+        "胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "进行血液检测以监测白细胞（WBC）和中性粒细胞水平，以发现感染迹象。"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防肺不张和深静脉血栓形成。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并发现任何晚期并发症。"
+    }
+  },
+  "Prompt 16:\n6576142": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 59,
+      "nodule_size_mm": 39,
+      "albumin_g_l": 38.3,
+      "wbc_x10_9_l": 5,
+      "neutrophils_x10_9_l": 2.33,
+      "postoperative_drainage_ml": 220,
+      "surgery_time_minutes": 60,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张",
+      "伤口愈合延迟"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口部位，观察是否有感染或裂开的迹象。",
+        "胸部X光检查以排除肺不张或肺炎",
+        "监测白细胞、中性粒细胞和白蛋白水平的血液检测"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励术后24小时内下床活动，以预防深静脉血栓和肺不张等并发症。",
+      "follow_up": "术后1周、1个月及3个月安排随访复查，以监控恢复情况，并评估是否有复发或并发症的迹象。"
+    }
+  },
+  "Prompt 17:\n6577364": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 55,
+      "nodule_size_mm": 16,
+      "albumin_g_l": 45.3,
+      "wbc_x10_9_l": 5.2,
+      "neutrophils_x10_9_l": 3.22,
+      "postoperative_drainage_ml": 680,
+      "surgery_time_minutes": 95,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口愈合情况及感染迹象",
+        "胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "监测白细胞、中性粒细胞和白蛋白水平的血液检测"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防肺不张和深静脉血栓形成。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并发现任何晚期并发症。"
+    }
+  },
+  "Prompt 18:\n6577462": {
+    "risk_score": 45,
+    "key_indices": {
+      "age": 70,
+      "nodule_size_mm": 20,
+      "albumin_g_l": 39.6,
+      "wbc_x10_9_l": 9.53,
+      "neutrophils_x10_9_l": 7.53,
+      "postoperative_drainage_ml": 240,
+      "surgery_time_minutes": 110,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "伤口愈合延迟"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测白细胞和中性粒细胞计数，以早期发现感染迹象。",
+        "每日评估伤口愈合及引流情况",
+        "持续监测呼吸功能，以发现肺炎或气体泄漏的任何迹象。",
+        "定期评估活动能力及深静脉血栓形成的迹象"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励早期下床活动和物理治疗，以预防深静脉血栓和肺栓塞等并发症。",
+      "follow_up": "术后1周、1个月及3个月安排随访复查，以监控恢复情况并排查任何晚期并发症。"
+    }
+  },
+  "Prompt 19:\n6578071": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 67,
+      "nodule_size_mm": 22,
+      "albumin_g_l": 38.6,
+      "wbc_x10_9_l": 5.49,
+      "neutrophils_x10_9_l": 2.97,
+      "postoperative_drainage_ml": 220,
+      "surgery_time_minutes": 95,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺不张",
+      "伤口愈合延迟"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测伤口部位，观察感染迹象。",
+        "每日呼吸功能评估",
+        "频繁检查排水量及其特性",
+        "监测深静脉血栓形成的迹象"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励患者根据耐受程度进行步行和轻度体力活动，以预防诸如肺不张和深静脉血栓等并发症。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并评估是否有复发或并发症的迹象。"
+    }
+  },
+  "Prompt 20:\n6578169": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 63,
+      "nodule_size_mm": 16,
+      "albumin_g_l": 40.7,
+      "wbc_x10_9_l": 4.73,
+      "neutrophils_x10_9_l": 2.21,
+      "postoperative_drainage_ml": 720,
+      "surgery_time_minutes": 95,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口愈合情况及感染迹象",
+        "胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "监测白细胞、中性粒细胞和白蛋白水平的血液检测"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防肺不张和深静脉血栓形成。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并发现任何晚期并发症。"
+    }
+  },
+  "Prompt 21:\n6578523": {
+    "risk_score": 45,
+    "key_indices": {
+      "age": 64,
+      "nodule_size_mm": 21,
+      "albumin_g_l": 40.2,
+      "wbc_x10_9_l": 9.57,
+      "neutrophils_x10_9_l": 7.85,
+      "postoperative_drainage_ml": 3325,
+      "surgery_time_minutes": 173,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张",
+      "长期漏气",
+      "呼吸衰竭"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测胸腔引流管引流量",
+        "定期评估呼吸功能",
+        "每日进行血液检测以监测白细胞（WBC）和中性粒细胞水平。",
+        "定期进行影像检查，以排查感染或并发症的任何迹象。"
+      ],
+      "nutritional_support": "高蛋白饮食以促进愈合并维持白蛋白水平",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防肺不张和深静脉血栓形成。",
+      "follow_up": "在最初的2个月内，每2周安排一次随访预约，接下来的6个月则每月一次，以监测恢复情况并及早发现任何复发迹象。"
+    }
+  },
+  "Prompt 22:\n6578853": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 39,
+      "nodule_size_mm": 17,
+      "albumin_g_l": 39.8,
+      "wbc_x10_9_l": 5.34,
+      "neutrophils_x10_9_l": 3.79,
+      "postoperative_drainage_ml": 400,
+      "surgery_time_minutes": 181,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口愈合情况及感染迹象",
+        "胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "进行血液检测以监测白细胞（WBC）和中性粒细胞水平，以发现感染迹象。"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防肺不张和深静脉血栓形成。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并发现任何晚期并发症。"
+    }
+  },
+  "Prompt 23:\n6579850": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 43,
+      "nodule_size_mm": 12,
+      "albumin_g_l": 45.3,
+      "wbc_x10_9_l": 4.5,
+      "neutrophils_x10_9_l": 2.27,
+      "postoperative_drainage_ml": 570,
+      "surgery_time_minutes": 185,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征",
+        "胸部X光检查以排查肺不张或肺炎",
+        "监测白细胞和中性粒细胞水平的血液检测",
+        "排水量监测"
+      ],
+      "nutritional_support": "高蛋白饮食以促进愈合并维持白蛋白水平",
+      "early_mobilization": "鼓励在耐受范围内进行步行和轻度体力活动，以预防深静脉血栓等并发症。",
+      "follow_up": "第一年内，每3个月安排一次随访预约，包括CT扫描和血液检查，以监测复发或并发症情况。"
+    }
+  },
+  "Prompt 24:\n6579957": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 42,
+      "nodule_size_mm": 14,
+      "albumin_g_l": 44.9,
+      "wbc_x10_9_l": 9.46,
+      "neutrophils_x10_9_l": 5.36,
+      "postoperative_drainage_ml": 360,
+      "surgery_time_minutes": 290,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺不张",
+      "肺栓塞"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口愈合情况及感染迹象",
+        "胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "监测白细胞和中性粒细胞水平的血液检测"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防肺不张和深静脉血栓形成。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并发现任何晚期并发症。"
+    }
+  },
+  "Prompt 25:\n6581273": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 54,
+      "nodule_size_mm": 24,
+      "albumin_g_l": 40.9,
+      "wbc_x10_9_l": 5.56,
+      "neutrophils_x10_9_l": 2.77,
+      "postoperative_drainage_ml": 1090,
+      "surgery_time_minutes": 95,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成（DVT）",
+      "肺栓塞",
+      "肺不张",
+      "长时间漏气（如果发生漏气）"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测胸腔引流管的引流量及引流液性质",
+        "每日评估呼吸功能和血氧饱和度",
+        "定期检查伤口，观察是否有感染迹象。",
+        "监测血细胞计数和炎症标志物（例如，C反应蛋白，CRP）"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "术后24小时内鼓励患者下床活动，以降低深静脉血栓（DVT）和肺不张的风险。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，进行影像学检查和临床评估。"
+    }
+  },
+  "Prompt 26:\n6581473": {
+    "risk_score": 45,
+    "key_indices": {
+      "age": 76,
+      "nodule_size_mm": 21,
+      "albumin_g_l": 36.9,
+      "wbc_x10_9_l": 2.51,
+      "neutrophils_x10_9_l": 1.21,
+      "postoperative_drainage_ml": 150,
+      "surgery_time_minutes": 70,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "由于白细胞和中性粒细胞计数低导致的感染",
+      "由于白蛋白水平低导致的伤口愈合延迟",
+      "术后因活动减少导致的肺炎",
+      "由于血小板计数低导致的出血性血小板减少症"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "每日白细胞计数（WBC）和中性粒细胞计数，以监测感染情况。",
+        "定期检测白蛋白水平以评估营养状况",
+        "胸部X光检查以监测肺炎情况",
+        "监测血小板计数以评估出血风险"
+      ],
+      "nutritional_support": "高蛋白饮食搭配补充剂，以提升白蛋白水平并促进伤口愈合",
+      "early_mobilization": "术后24小时内鼓励步行和轻度体力活动，以降低肺炎风险。",
+      "follow_up": "在最初的2个月内，每2周安排一次随访预约，之后6个月内每月一次，以监测恢复情况并及早发现任何并发症。"
+    }
+  },
+  "Prompt 27:\n6581544": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 50,
+      "nodule_size_mm": 25,
+      "albumin_g_l": 45.2,
+      "wbc_x10_9_l": 5.27,
+      "neutrophils_x10_9_l": 2.37,
+      "postoperative_drainage_ml": 380,
+      "surgery_time_minutes": 95,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口愈合情况及感染迹象",
+        "胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "监测白细胞、中性粒细胞和白蛋白水平的血液检测"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防肺不张和深静脉血栓形成。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并发现任何晚期并发症。"
+    }
+  },
+  "Prompt 28:\n6582480": {
+    "risk_score": 45,
+    "key_indices": {
+      "age": 70,
+      "nodule_size_mm": 18,
+      "albumin_g_l": 41.7,
+      "wbc_x10_9_l": 8.55,
+      "neutrophils_x10_9_l": 6.34,
+      "postoperative_drainage_ml": 650,
+      "surgery_time_minutes": 120,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成",
+      "肺栓塞",
+      "肺不张",
+      "伤口愈合延迟"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征，包括体温、心率和血氧饱和度。",
+        "每日评估伤口部位是否有感染迹象",
+        "频繁进行胸部X光检查，以监测肺部扩张情况并发现任何并发症。",
+        "进行血液检测以监测白细胞（WBC）和中性粒细胞水平，以发现感染迹象。"
+      ],
+      "nutritional_support": "高蛋白饮食有助于伤口愈合和维持白蛋白水平",
+      "early_mobilization": "鼓励在耐受范围内进行步行和轻度体力活动，以预防深静脉血栓和肺不张等并发症。",
+      "follow_up": "术后2周、1个月和3个月安排随访预约，以监测恢复情况并发现任何晚期并发症。"
+    }
+  },
+  "Prompt 29:\n6584926": {
+    "risk_score": 35,
+    "key_indices": {
+      "age": 64,
+      "nodule_size_mm": 13,
+      "albumin_g_l": 42.5,
+      "wbc_x10_9_l": 5.02,
+      "neutrophils_x10_9_l": 2.77,
+      "postoperative_drainage_ml": 920,
+      "surgery_time_minutes": 170,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "术后感染",
+      "肺炎",
+      "深静脉血栓形成（DVT）",
+      "肺栓塞",
+      "肺不张",
+      "长期漏气（尽管目前未出现）",
+      "伤口愈合延迟"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测生命体征（心率、血压、血氧饱和度）",
+        "每日评估伤口愈合及引流情况",
+        "胸部X光检查以排除肺不张或肺炎",
+        "监测白细胞、中性粒细胞和白蛋白水平的血液检测",
+        "评估深静脉血栓（DVT）的迹象（例如，腿部肿胀、疼痛）"
+      ],
+      "nutritional_support": "高蛋白饮食以促进伤口愈合并维持白蛋白水平。若饮食摄入不足，可考虑口服营养补充剂。",
+      "early_mobilization": "鼓励早期下床活动和进行呼吸锻炼，以预防深静脉血栓（DVT）、肺不张和肺炎等并发症。使用激励性肺量计来改善肺功能。",
+      "follow_up": "术后随访安排：分别在2周、1个月和3个月进行复查。其中，3个月时需包含胸部影像学检查（CT扫描），以监测复发或并发症情况。"
+    }
+  },
+  "Prompt 30:\n6585012": {
+    "risk_score": 25,
+    "key_indices": {
+      "age": 65,
+      "nodule_size_mm": 11,
+      "albumin_g_l": 37.4,
+      "wbc_x10_9_l": 3.41,
+      "neutrophils_x10_9_l": 2.01,
+      "postoperative_drainage_ml": 100,
+      "surgery_time_minutes": 185,
+      "air_leak": "不"
+    },
+    "possible_adverse_reactions": [
+      "白细胞和中性粒细胞计数低导致的感染",
+      "由于白蛋白水平低导致的伤口愈合延迟",
+      "术后肺炎",
+      "深静脉血栓形成（DVT）"
+    ],
+    "recommendations": {
+      "monitoring": [
+        "定期监测白细胞和中性粒细胞计数",
+        "每日伤口愈合进展评估",
+        "胸部X光检查以监测肺炎情况",
+        "若出现症状，采用超声波进行深静脉血栓（DVT）筛查"
+      ],
+      "nutritional_support": "高蛋白饮食以维持白蛋白水平并促进伤口愈合",
+      "early_mobilization": "鼓励在耐受范围内进行步行和轻度体力活动，以预防深静脉血栓（DVT）并促进康复。",
+      "follow_up": "安排术后1周、1个月和3个月的随访预约，以监测恢复情况并及早发现任何并发症。"
+    }
+  }
+}

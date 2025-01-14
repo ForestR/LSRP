@@ -19,5 +19,10 @@
 - Add data/processed/risk_assessments.json
 - Add .env
 
-
+# 0.0.4
+2025-01-13
+- Build a pipeline to translate prompts
+- Add translate.py
+- Add data/translated/risk_assessments_zh.json
+- Modify process_prompts.py to use environment variables
 
